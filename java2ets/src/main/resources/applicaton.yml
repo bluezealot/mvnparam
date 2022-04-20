@@ -1,0 +1,11 @@
+spring:
+  redis:
+    port: 6379
+    host: 10.50.10.51
+    database: 0
+    ssl: false
+    timeout:
+  couchbase:
+    env:
+      endpoints:
+        key-value:
