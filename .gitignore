@@ -9,3 +9,6 @@ java2ets/target/surefire-reports/com.hoperun.java2ets.java2ets.Java2etsApplicati
 java2ets/target/surefire-reports/TEST-com.hoperun.java2ets.java2ets.Java2etsApplicationTests.xml
 java2ets/target/test-classes/com/hoperun/java2ets/java2ets/Java2etsApplicationTests.class
 java2ets/target/test-classes/com/hoperun/java2ets/java2ets/TestObj.class
+java2ets/target/java2ets-0.0.1-SNAPSHOT.jar
+java2ets/target/java2ets-0.0.1-SNAPSHOT.jar.original
+java2ets/target/maven-archiver/pom.properties
