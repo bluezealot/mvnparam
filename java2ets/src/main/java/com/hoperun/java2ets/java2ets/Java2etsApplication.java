@@ -14,7 +14,7 @@ public class Java2etsApplication {
 		log.info("args: "+args.length);
 		String evnCallBackPort = System.getenv("CALLBACK_PORT");
 		log.info("CALLBACK_PORT: "+evnCallBackPort);
-		System.exit(SpringApplication.exit(SpringApplication.run(Java2etsApplication.class, args)));
+		SpringApplication.run(Java2etsApplication.class, args);
 	}
 
 	// @Bean
