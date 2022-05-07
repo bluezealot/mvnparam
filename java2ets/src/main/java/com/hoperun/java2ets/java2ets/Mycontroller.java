@@ -10,7 +10,7 @@ public class Mycontroller {
 
     @GetMapping("firstget")
     public String firstGet(){
-        return "hello";
+        return System.getenv("CALLBACK_PORT");
     }
     
 }

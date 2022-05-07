@@ -1,0 +1,8 @@
+FROM openjdk:11.0.15-oracle
+
+EXPOSE 8080
+
+ADD target/java2ets-0.0.1-SNAPSHOT.jar ./
+ENV CALLBACK_PORT default
+
+ENTRYPOINT ["java","-jar","/java2ets-0.0.1-SNAPSHOT.jar"]

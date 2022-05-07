@@ -19,5 +19,4 @@ public class EntryService implements CommandLineRunner, ExitCodeGenerator{
     public void run(String... args) throws Exception {
         log.info("Console Start---");
     }
-    
 }
